@@ -1,0 +1,37 @@
+1- Acessar site da amazon.com
+    1.1- Verificar conexão com internet
+    1.2.a- Caso possua conexão com internet
+        1.2.1- Ir até www.amazon.com.br
+        1.2.3- Fim do Fluxo
+    1.2.b- Caso não possua conexão com internet
+        1.2.b.1- Fim do Fluxo
+
+
+===========================================================================
+
+1- Aguardar o primeiro numero
+2- Aguardar o segundo numero
+3- Calcular e armazenar a soma entre o primeiro numero e o segundo numero
+4- O resultado do seu calculo é a soma armazena
+
+const aliquota = 7.5
+var num1;
+var num2;
+var calculo;
+
+readln("Informe o primeiro numero:", num1);
+readln("Informe o segundo numero:", num2);
+
+calculo = num1 + num2;
+
+writeln("O resultado do calculo é:", calculo);
+
+
+Tarefa
+
+Fazer um programa, que calcule o valor de imposto de renda baseado num salario. 
+(Aliquota Imposto de renda: 7,5%)test
+
+
+
+
