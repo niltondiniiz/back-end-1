@@ -1,0 +1,139 @@
+Tarefa
+
+Fazer um programa, que calcule o valor de imposto de renda baseado num salario. 
+(Aliquota Imposto de renda: 7,5%)
+
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario o valor do salario
+2- Calcular o valor do imposto a recolher baseado na aliquota de 7,5%
+3- Mostrar ao usuário o valor do imposto calculado
+
+2- Pseudocódigo
+
+const aliquota = 7,5%
+var salario
+var impostoDevido
+
+readln("Informe o salario", salario);
+impostoDevido = salario * aliquota;
+writeln("O valor do imposto devido é:", impostoDevido);
+
+3- 
+
+===========================================================
+
+Tarefa de hoje
+
+Escrever um programa que baseado no 
+valor do salario vai informar ao usuário,
+a aliquota do imposto de renda.
+
+Usando como regra a seguinte tabela
+
+Base de cálculo do Imposto de Renda
+
+Até R$1.903,98	Isento
+De R$1.903,99 até R$2.826,65	7,5%
+De R$2.826,66 até R$3.751,05	15%
+De R$3.751,06 até R$4.664,68	22,5%
+Acima de R$4.664,68	27,5%
+
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario o valor 
+do seu salario.
+
+2- Se o salario for menor ou igual a 1.903,98 
+    então escreva "Você está livre do Leão (ISENTO)"
+
+3- Se o salario for maior que 1.903,98 
+    e menor que 2.826,66 então escreva: 
+    "Sua aliquota é de 7,5%"
+
+4- Se o salario for maior que 2.826,65 
+    e menor que 3.751,06 então escreva: 
+    "Sua aliquota é de 15%"
+
+5- Se o salario for maior que 3.751,05 
+    e menor que 4.664,68 então escreva: 
+    "Sua aliquota é de 22,5%"
+
+6- Se o salario for maior que 4.664,68 
+    então escreva: "Sua aliquota é de 27,5%"
+
+
+
+2- Pseudocódigo
+
+const faixa1 = 'ISENTO'
+const faixa2 = '7,5%'
+const faixa3 = '15%'
+const faixa4 = '22,5%'
+const faixa5 = '27,5%'
+var salario = 2500;
+
+readln("Informe o valor do seu salario", salario);
+
+if(salario <= 1.903,98)then
+    writeln( "Você está livre do Leão", faixa1);
+
+elseif(salario >= 1.903,99 and <= 2.826,65)then
+    writeln( "Sua aliquota é de", faixa2);
+
+elseif(salario >= 2.826,66 and <= 3.751,05)then
+    writeln( "Sua aliquota é de", faixa3);
+
+elseif(salario >= 3.751,06 and <= 4.664,68)then
+    writeln( "Sua aliquota é de", faixa4);
+
+else
+    writeln( "Sua aliquota é de", faixa5);
+
+    
+    
+    
+    
+var texto = 'Um texto qualquer'
+var numerica = 555
+
+var concat = texto + '555'
+var verdade = 'false'
+
+if(verdade == false)
+
+================================================================================
+
+3.5 Exercício Proposto
+
+1. Classifique os dados especificados abaixo de acordo com seu tipo, assinalando com I os
+dados do tipo inteiro, com R os reais, com L os literais, com B os lógicos (booleanos), e
+com N aqueles para os quais não é possível definir a priori um tipo de dado.
+( ) 0.21
+( ) 1
+( ) V
+( ) “0.”
+( ) 1%
+( ) “José”
+( ) 0,35
+( ) .F.
+( ) -0.001
+
+( ) .T.
+( ) +3257
+( ) “a”
+( ) “+3257”
+( ) +3257.
+( ) “-0.0”
+( ) “.F.”
+( ) ± 3
+
+( ) .V.
+( ) .V
+( ) “abc”
+( ) F
+( ) C
+( ) Maria
+( ) +36
