@@ -111,29 +111,75 @@ if(verdade == false)
 1. Classifique os dados especificados abaixo de acordo com seu tipo, assinalando com I os
 dados do tipo inteiro, com R os reais, com L os literais, com B os lógicos (booleanos), e
 com N aqueles para os quais não é possível definir a priori um tipo de dado.
-( ) 0.21
-( ) 1
-( ) V
-( ) “0.”
-( ) 1%
-( ) “José”
-( ) 0,35
-( ) .F.
-( ) -0.001
 
-( ) .T.
-( ) +3257
-( ) “a”
-( ) “+3257”
-( ) +3257.
-( ) “-0.0”
-( ) “.F.”
-( ) ± 3
+(R) 0.21
+(I) 1
+(B) V
+(L) “0.”
+(N) 1%
+(L) “José”
+(N) 0,35
+(N) .F.
+(R) -0.001
 
-( ) .V.
-( ) .V
-( ) “abc”
-( ) F
-( ) C
-( ) Maria
-( ) +36
+(N) .T.
+(I) +3257
+(L) “a”
+(L) “+3257”
+(N) +3257.
+(L) “-0.0”
+(L) “.F.”
+(N) ± 3
+
+(N) .V.
+(N) .V
+(L) “abc”
+(B) F
+(N) C
+(N) Maria
+(I) +36
+
+Pessoal, 
+
+Vamos escrever um programa que receba notas (De 1 a 10), 
+calcule e armazene a média, e no final escreva aprovado caso a média seja maior ou igual a 7, 
+e reprovado caso a média seja menor que 7.
+
+4 - notas
+
+1- Descrição narrativa
+
+10, 10, 10, 10 = 
+(10+10+10+10)/4 = 10
+
+1- Solicitar ao usuario a nota do primeiro bimestre
+2- Solicitar ao usuario a nota do segundo bimestre
+3- Solicitar ao usuario a nota do terceiro bimestre
+4- Solicitar ao usuario a nota do quarto bimestre
+5- Calcular e armazenar (nota1 + nota2 + nota3 + nota4) / 4
+6- Se a media >= 7 escreva Aluno aprovado
+7- Senão escreve Aluno reprovado
+
+2- Pseudocódigo
+
+var nota1
+var nota2
+var nota3
+var nota4
+var media
+
+leia("Informe a nota do primeiro bimestre", nota1);
+leia("Informe a nota do segundo bimestre", nota2);
+leia("Informe a nota do terceiro bimestre", nota3);
+leia("Informe a nota do quarto bimestre", nota4);
+
+media = (nota1+nota2+nota3+nota4)/4;
+
+if(media >= 7)
+    escreva("Aluno aprovado");
+else
+    escreva("Aluno reprovado");
+
+https://draw.io
+
+3- 
