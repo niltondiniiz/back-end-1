@@ -1,0 +1,79 @@
+
+Faça um algoritmo que receba o nome do usuário e a idade
+e mostre ao usuario a seguinte mensagem: Olá, seu nome é 
+nomeUsuario você tem idadeUsuario anos.
+
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario que informe seu nome
+2- Solicitar ao usuario que informe sua idade
+3- Escrever a seguinte mensagem: 
+    Ola, seu nome é nomeUsuario e voce tem idadeUsuario anos.
+
+
+2- Pseudocódigo
+
+var nomeUsuario
+var idadeUsuario
+
+readln("Informe seu nome: ", nomeUsuario);
+readln("Informe sua idade", idadeUsuario);
+writeln("Olá, seu nome é nomeUsuario e voce tem idadeUsuario anos.");
+
+3- Fluxograma
+
+==============================================================================
+
+Faça um algoritmo que vai receber a cidade de nascimento do usuário,
+e vai mostrar a seguinte mensagem: Você nasceu em [NOME DA CIDADE]
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario nome da cidade de nascimento
+2- Escrever a seguinte mensagem: Você nasceu em nomeCidade
+
+
+2- Pseudocódigo
+
+var nomeCidade
+
+readln("Informe o nome da cidade", nomeCidade);
+writeln("Você nasceu em ", nomeCidade);
+
+
+3- Fluxograma
+
+==============================================================================
+
+const numeroConstante = 10
+
+Faça um algoritmo que receba do usuario um numero qualquer, 
+faça uma soma deste numero com o numero 10,
+e escreva o resultado com a seguinte mensagem: 
+Você somou [numeroEntrada] mais o numero 10,
+o resultado é [numeroCalculado]
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario um numero qualquer
+2- Calcular e armazenar a soma do numero informado mais o numero 10
+3- Mostrar ao usuario a seguinte mensagem: Você somou numeroEntrada
+mais o numero 10, o resultado é numeroCalculado
+
+2- Pseudocódigo
+
+const numeroConstante = 10
+var numeroQualquer
+var numeroCalculado
+
+readln("Informe um numero qualquer", numeroQualquer);
+numeroCalculado = numeroQualquer + numeroConstante;
+writeln("Você somou numeroEntrada
+mais o numero 10, o resultado é numeroCalculado");
+
+
+3- Fluxograma
+
+
+
