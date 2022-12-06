@@ -1,0 +1,31 @@
+Agora é sua vez!
+Faça um algoritmo que solicite ao usuário 2 números, e escreva para o usuário uma resposta 
+informando qual dentre os dois números digitados é o maior. Faça o algoritmo nas suas 3 formas.
+
+1- Descrição narrativa
+
+1- Solicitar ao usuario um numero aleatótio
+2- Solicitar ao usuario outro numero aleatótio
+3- Caso o primeiro numero seja maior que o segundo, informar ao usuario: O primero numero digitado é o maior,
+   Caso o segundo numere seja maior que o primeiro, informar ao usuario: O segundo numero digitado é o maior,
+   Caso contrario informe: Os numeros são iguais.
+
+2- Pseudocódigo
+
+var num1
+var num2
+
+readln('Informe um numero aleatótio', num1);
+readln('Informe um outro numero aleatótio', num2);
+
+if(num1 > num2)then
+    writeln('O primeiro numero é o maior')
+elseif(num2>num1)
+    writeln('O segundo numero é o maior')
+else
+    writeln('Os numeros são iguais')
+
+
+3- Fluxograma
+
+
