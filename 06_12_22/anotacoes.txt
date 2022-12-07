@@ -1,3 +1,66 @@
+1- 
+
+programa {
+  funcao inicio() {
+    cadeia nome
+
+    escreva("Bem vindo ao repetidor \n")
+    escreva("Escreva seu nome, que nós vamos repetir 1000x \n")
+    escreva("Digite agora seu nome... \n")
+
+    leia(nome)
+
+    para(inteiro i = 0; i < 1000; i++){
+      escreva("Repeticao: ", i)
+      escreva("\n")
+      escreva("Seu nome é: \n", nome)
+      escreva("\n")
+    }
+  }
+}
+
+2- 
+
+programa {
+  funcao inicio() {
+    
+    //Faca um programa que vai repetir 1000 e multiplicar o valor de i por 2 e
+    //mostrar este valor ao usuário
+
+    inteiro calculo
+
+    para(inteiro indice = 0; indice < 1000; indice++){
+      //Aqui vou realizar o calculo
+      calculo = indice * 2
+      escreva("O calculo é: ", calculo)
+      escreva("\n")
+    }
+  }
+}
+
+
+3- 
+
+programa {
+  funcao inicio() {
+    //Faça um programa que vai receber 5 numeros
+    //E vai somá-los e escrever o resultado no final
+
+    inteiro numero
+    inteiro calculo
+    calculo = 0
+
+    para(inteiro i = 0; i < 5; i++){
+      escreva("Usuario digite um numero \n")
+      leia(numero)
+      calculo = calculo + numero      
+    }
+    escreva("O valor da soma é: \n", calculo)
+  }
+}
+
+
+
 Tarefa para casa
 
 programa {
