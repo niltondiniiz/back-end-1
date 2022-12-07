@@ -129,7 +129,7 @@ com N aqueles para os quais não é possível definir a priori um tipo de dado.
 (N) +3257.
 (L) “-0.0”
 (L) “.F.”
-(N) ± 3
+(N) ± 3Y
 
 (N) .V.
 (N) .V
