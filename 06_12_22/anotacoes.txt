@@ -1,15 +1,34 @@
 Tarefa para casa
 
-//Faça uma tabuada
-//O usuário vai inserir o numero base da tabuada
+programa {
+  funcao inicio() {
+    //Faça uma tabuada
+    //O usuário vai inserir o numero base da tabuada
+    
+    //1- O usuario vai informar um numero qualquer que sera a base da nossa
+    //tabuada
+    //2- O programa vai repetir 10x 
+    //  e cada uma das vezes vai efetuar um calculo
+    //3- O programa vai mostrar o resultado da seguinte forma:
+    //[NUMERO] x 1 = [RESULTADO DO CALCULO]
+    //[NUMERO] x 2 = [RESULTADO DO CALCULO]
+    //[NUMERO] x 3 = [RESULTADO DO CALCULO]
+    //[NUMERO] x 4 = [RESULTADO DO CALCULO]
+    //...
 
-1- O usuario vai informar um numero qualquer que sera a base da nossa
-tabuada
-2- O programa vai repetir 10x 
-    e cada uma das vezes vai efetuar um calculo
-3- O programa vai mostrar o resultado da seguinte forma:
-[NUMERO] x 1 = [RESULTADO DO CALCULO]
-[NUMERO] x 2 = [RESULTADO DO CALCULO]
-[NUMERO] x 3 = [RESULTADO DO CALCULO]
-[NUMERO] x 4 = [RESULTADO DO CALCULO]
-...
+    inteiro numero
+    inteiro calculo
+
+    escreva("Informe o fator de multiplicacao \n")
+    leia(numero)
+
+    para(inteiro i = 0; i < 10; i++){
+      calculo = numero * (i + 1)
+      escreva(numero)
+      escreva(" X ", i + 1)
+      escreva(" = ", calculo)
+      escreva("\n")
+    }
+
+  }
+}
