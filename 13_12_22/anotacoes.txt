@@ -1,0 +1,79 @@
+/*
+  Faça um programa que leia 6 idade,
+  e mostre a maior idade informada.
+  Utilize funções para agrupar as responsabilidade do programa
+
+*/
+
+programa {
+  
+  inteiro maiorIdade = 0
+
+  funcao quemEMaior(inteiro num1, inteiro num2){
+    se(num1 > num2){
+      maiorIdade = num1
+    } 
+  }
+
+  funcao obterIdades(){
+    inteiro idades[6]
+    para(inteiro i = 0; i < 6; i++){
+      escreva("Digite uma idade: ")
+      leia(idades[i])
+      quemEMaior(idades[i], maiorIdade)       
+    }
+    escreva("A maior idade é: ", maiorIdade)
+  }
+
+  funcao inicio() {
+    obterIdades()
+  }
+}
+
+/*
+
+  Faça um programa que solicite 
+  4 notas do aluno
+
+  A- escreva a maior nota
+  B- escreva a média
+
+*/
+
+programa {
+
+  real soma = 0.0
+  real media = 0.0
+  real maiorNota = 0.0
+
+  funcao quemEMaior(real num1, real num2){
+    se(num1 > num2){
+      maiorNota = num1
+    } 
+  }
+
+  funcao somar(real nota){
+    soma = soma + nota
+  }
+
+  funcao obterMedia(real soma){
+    media = soma/4
+  }
+
+  funcao obterNotas(){
+    real notas[4]
+    para(inteiro i = 0; i<4; i++){
+      escreva("Informe uma nota: ")
+      leia(notas[i])
+      somar(notas[i])
+      quemEMaior(notas[i], maiorNota)
+    }
+    obterMedia(soma)
+    escreva("Sua média é: ", media, "\n")
+    escreva("Sua maior nota é: ", maiorNota)
+  }
+
+  funcao inicio() {
+    obterNotas()
+  }
+}
