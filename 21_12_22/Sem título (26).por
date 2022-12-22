@@ -1,12 +1,13 @@
 /*
 
-  Baseado no exercicio anterior, vamos passar a obter somente o nome do usuário.
-  O criterio para encerrar a repetição é o mesmo usado anteriormente.
-  Depois de obter nome, você irá obter a linha e a coluna onde será armazenado o nome
+  Baseado no exercicio anterior, vamos passar a obter somente o nome do usuï¿½rio.
+  O criterio para encerrar a repetiï¿½ï¿½o ï¿½ o mesmo usado anteriormente.
+  Depois de obter nome, vocï¿½ irï¿½ obter a linha e a coluna onde serï¿½ armazenado o nome
   numa matriz de 2 linhas e 2 colunas ou seja matriz[2][2].
-  apos obter as coordenas, preencha aquela posição com o nome informado.
+  apos obter as coordenas, preencha aquela posiï¿½ï¿½o com o nome informado.
 
-  Ao sair da repetição, imprima a matriz.
+  Ao sair da repetiï¿½ï¿½o, imprima a matriz.
+  
 */
 
 programa {
