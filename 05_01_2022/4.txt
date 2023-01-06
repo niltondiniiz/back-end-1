@@ -1,0 +1,5 @@
+DML - Data Manipulation Language
+Manipular dados
+
+DDL - Data Definition Language
+Definir estruturas

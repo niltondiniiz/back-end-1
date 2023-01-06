@@ -1,0 +1,59 @@
+DDL - Definições de Estruturas
+
+- create: Criar? tabela, banco de dados
+- alter: Alterar? tabela, campos, banco de dados
+- drop: Apagar? tabelas, banco de dados, ...
+
+Criar banco de dados
+create database [NOME_DO_BANCO]
+
+
+================================================
+Criar tabela
+create table funcionarios(
+    id integer,
+    nome character varying,
+    cpf char(11),
+    nascimento date
+)
+================================================
+
+================================================
+Alterar tabela
+ALTER TABLE funcionarios
+    ALTER COLUMN id SET NOT NULL;
+
+ALTER TABLE funcionarios
+    ALTER COLUMN nome SET NOT NULL;
+
+ALTER TABLE funcionarios
+    ALTER COLUMN cpf SET NOT NULL;
+
+ALTER TABLE funcionarios
+    ALTER COLUMN nascimento SET NOT NULL;
+
+ALTER TABLE funcionarios
+    ADD PRIMARY KEY (id);
+
+==========================================
+
+Apagar tabelas:
+drop table funcionarios;
+=========================================
+
+CREATE TABLE funcionarios
+(
+    id integer NOT NULL,
+    nome character varying NOT NULL,
+    cpf character varying(11) NOT NULL,
+    nascimento date NOT NULL,
+    PRIMARY KEY (id)
+);
+========================================
+Adicionando um campo na tabela
+
+ALTER TABLE funcionarios
+ADD COLUMN telefone character varying(11);
+
+ALTER TABLE funcionarios
+DROP COLUMN telefone;

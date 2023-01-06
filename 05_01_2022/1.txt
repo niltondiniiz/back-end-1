@@ -1,0 +1,15 @@
+SELECT - Serve para trazer os dados das tabelas
+    
+    SELECT * FROM PF WHERE CPF = '00000000000'
+
+
+UPDATE - Serve atualizar um registro ou varios na tabelas
+
+
+INSERT - Serve para inserir um registro na tabelas
+
+
+DELETE - Serve para excluir um registro da tabelas
+
+
+WHERE - 

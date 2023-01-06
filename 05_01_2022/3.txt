@@ -1,0 +1,52 @@
+SELECT NOME, NASCIMENTO from [tabela] where...
+SELECT: 
+Nome do Comando: SELECT 
+Campos: *, id, nome
+opcional: where
+
+UPDATE FROM [tabela] SET [campo] = [valor]
+WHERE ....
+
+UPDATE FROM FUNCIONARIOS SET NOME = 'MARIA'
+WHERE NOME = 'MARCOS'
+
+Nome do comando: UPDATE
+set: Para alterar o valor de um campo especifico
+opcional: WHERE
+
+DELETE FROM [tabela]
+WHERE ....
+
+DELETE FROM FUNCIONARIOS
+WHERE IDADE > 18
+
+Nome do comando: DELETE
+opcional: WHERE
+
+TABELA: FUNCIONARIOS
+ID      NOME        NASCIMENTO
+1       NILTON      17/07/1986
+2       FRANCISCO   11/11/1985
+3       MARIA       01/01/2000
+
+SELECT * FROM FUNCIONARIOS
+WHERE ID = 2
+
+Atualize para Maria da Silva o nome do 
+funcionario que tem o ID = 3
+
+UPDATE FROM FUNCIONARIOS 
+SET NOME = 'MARIA DA SILVA'
+WHERE ID = 3
+
+Excluir o funcionario que possui o nome = 'NILTON'
+DELETE FROM FUNCIONARIOS WHERE NOME = 'NILTON'
+
+DELETE FROM FUNCIONARIOS
+WHERE NOME = 'NILTON'
+
+SELECIONAR OS FUNCIONARIOS COM ID = 2 E 
+ID = 3
+
+SELECT * FROM FUNCIONARIOS
+WHERE ID = 2 AND ID = 3
