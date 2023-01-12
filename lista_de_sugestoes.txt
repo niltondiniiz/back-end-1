@@ -1,0 +1,16 @@
+Projeto Final:
+Sugestões:
+- Noticias
+- Imoveis (Site de imobiliária) (Vendas)
+- Lista de compras
+- Catálogo de Moda (vendas)
+- Portifólio (Projeto de Site)
+- Agenda de Profissional
+- Bilheteria de Cinema (Vendas)
+- Site de Viagens (Vendas)
+- Cadastro de Pessoas(Clubes, igrejas, escolas, etc)
+- Controle Financeiro
+- Controle de Alimentação
+- Venda de Carros (Venda)
+- Ordens de Serviço
+- Sistema Supervisório Industrial
